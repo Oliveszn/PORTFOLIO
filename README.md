@@ -1,2 +1,2 @@
 # PORTFOLIO
-Here's my personal portfolio: oliveszn-portfolio.netlify.app
+Here's my personal portfolio: https://oliveszn-portfolio.netlify.app/

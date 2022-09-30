@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <script
+      src="https://kit.fontawesome.com/275d5da2ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Oliveszn Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">Oliveszn</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="uil uil-home nav__icon"></i></i>Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="uil uil-user nav__icon"></i></i>About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="uil uil-scenery nav__icon"></i></i>Portfolio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="uil uil-message nav__icon"></i></i>Contact</a
+              >
+            </li>
+          </ul>
+          <i class="uil uil-multiply nav__close" id="nav-close"></i>
+          
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change--theme" id="themebtn"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/olive-ekpeala-60539724b/" target="_blank" class="home__social--icon">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://twitter.com/oliveszn_" target="_blank" class="home__social--icon">
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+              <a href="https://github.com/Oliveszn?tab=repositories" target="_blank" class="home__social--icon">
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 479 467"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+                  />
+                  <image
+                    class="home__blob--img"
+                    x="50"
+                    y="60"
+                    href=""
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Olive</h1>
+              <h3 class="home__subtitle">Frontend Developer</h3>
+              <p class="home__description">
+                I build frontend products with attractive user interfaces.
+              </p>
+              <a href="#contact" class="button button--flex"
+                >Contact Me <i class="uil uil-message button__icon"></i></a>
+            </div>
+            
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll--button button--flex" >
+              <i class="uil uil-mouse-alt home__scroll--mouse"></i>
+              <span class="home__scroll--name"
+                >Scroll down
+                <i class="uil uil-arrow-down home__scroll--arrow"></i></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ABOUT  -->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+
+        <div class="about__container container grid">
+          <img src="images/about.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              Hello there! I'm Olive and I enjoy creating things that live on
+              the web. I'm a frontend web developer with over a year of
+              experience and i'm focused on creating great web projects, i'm also 
+              a fast learner and i enjoy working with people. <br>
+              In my spare time i like to learn new things and play football or basketball, I'm also
+              an FC Barcelona fan
+            </p>
+
+            <div class="about__skills">
+              <p class="about__description">I am good with but not limited to the following technologies</p>
+              <div class="about__skills--names">
+                <span class="about__skill"><i class="fa-brands fa-html5"></i> HTML</span>
+                <span class="about__skill"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                <span class="about__skill"><i class="fa-brands fa-sass"></i> Sass</span>
+                <span class="about__skill"><i class="bx bxl-tailwind-css"></i> Tailwind</span>
+                <span class="about__skill"><i class="fa-brands fa-bootstrap"></i> BootStrap</span>
+                <span class="about__skill"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="about__skill"><i class="fa-brands fa-react"></i> React</span>
+                <span class="about__skill"><i class="fa-brands fa-git-alt"></i> Git</span>
+                <span class="about__skill"><i class="fa-brands fa-figma"></i> Figma</span>
+              </div>
+            </div>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info--title">1+</span>
+                <span class="about__info--name">Years <br />experience</span>
+              </div>
+
+              <div>
+                <span class="about__info--title">10+</span>
+                <span class="about__info--name">Completed <br />projects</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download href="assets/Olive_Ekpeala_Resume.pdf"  class="button button--flex"
+                >Download CV
+                <i class="uil uil-import button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="porfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Some of my recent works, to see more check out my <a href="https://github.com/Oliveszn?tab=repositories" target="_blank">Github</a></span>
+
+        <div class="portfolio__container container swiper-container swiper mySwiper">
+          <div class="swiper-wrapper portfolio__holder">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="images/manage.png" alt="" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Manage Landing Page</h3>
+                <p class="portfolio__description">
+                  A fully responsive Landing Page for a company called 'Manage' built with Tailwind Css and Swiper JS
+                </p>
+                <a
+                  href="https://managelanding-page.netlify.app" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Site<i class="uil uil-arrow-right button__icon"></i></i>
+                </a>
+                
+                <a
+                  href="https://github.com/Oliveszn/manage-landing-page" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Github<i class="uil uil-github-alt button__icon"></i></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- PORTFOLIO 2 -->
+            <div class="portfolio__content  grid swiper-slide">
+              <img src="images/quicktyping.png" alt="" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Quick Typing Game</h3>
+                <p class="portfolio__description">
+                  A speed typing game where you have to input the given word in 5 seconds. It was built with Vanilla JS 
+                </p>
+                <a
+                  href="https://quick-typing.netlify.app" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Site<i class="uil uil-arrow-right button__icon"></i>
+                </a>
+
+                <a
+                href="https://github.com/Oliveszn/Typing-Game" target="_blank"
+                class="button button--flex button--small portfolio__button"
+                >Github<i class="uil uil-github-alt button__icon"></i></i>
+              </a>
+              </div>
+            </div>
+
+            <!-- PORTFOLIO 3 -->
+            <div class="portfolio__content  grid swiper-slide">
+              <img src="images/calculator.png" alt="" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Calculator App</h3>
+                <p class="portfolio__description">
+                  A Calculator app built for working simple calculations built with Vanilla JS. It also has three theme togglers. 
+                </p>
+                <a
+                  href="https://main-calculator.netlify.app" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Site<i class="uil uil-arrow-right button__icon"></i>
+                </a>
+
+                <a
+                href="https://github.com/Oliveszn/main-calculator" target="_blank"
+                class="button button--flex button--small portfolio__button"
+                >Github<i class="uil uil-github-alt button__icon"></i></i>
+              </a>
+              </div>
+            </div>
+
+             <!-- PORTFOLIO 4 -->
+                  <div class="portfolio__content  grid swiper-slide">
+                    <img src="images/Youtube.png" alt="" class="portfolio__img" />
+      
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Youtube Clone</h3>
+                      <p class="portfolio__description">
+                        This is a fully responsive clone of <a href="https://www.youtube.com/">Youtube</a>. It was built with Vanilla Js
+                      </p>
+                      <a
+                        href="https://youtube-clone-site-app.netlify.app" target="_blank"
+                        class="button button--flex button--small portfolio__button"
+                        >Live Site<i class="uil uil-arrow-right button__icon"></i>
+                      </a>
+      
+                      <a
+                      href="https://github.com/Oliveszn/Youtube-clone" target="_blank"
+                      class="button button--flex button--small portfolio__button"
+                      >Github<i class="uil uil-github-alt button__icon"></i></i>
+                    </a>
+                    </div>
+                  </div>
+
+            <!-- PORTFOLIO 5 -->
+            <div class="portfolio__content  grid swiper-slide">
+              <img src="images/password.png" alt="" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Password Generator App</h3>
+                <p class="portfolio__description">
+                  A password generator app built with Sass and Vanilla JS 
+                </p>
+                <a
+                  href="https://passwords-generators.netlify.app" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Site<i class="uil uil-arrow-right button__icon"></i>
+                </a>
+
+                <a
+                href="https://github.com/Oliveszn/Password-Genrator" target="_blank"
+                class="button button--flex button--small portfolio__button"
+                >Github<i class="uil uil-github-alt button__icon"></i></i>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+         
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </section>
+
+       <!--  PROJECT IN MIND  -->
+    <section class="project section">
+      <div class="project__bg">
+        <div class="project__container container grid">
+          <div class="project__data">
+            <h2 class="project__title">You have a new project?</h2>
+            <p class="project__description">
+              Come on and let's have a chat about it
+            </p>
+            <a href="#contact" class="button button--flex button--white">
+              Contact Me
+              <i class="uil uil-message project__icon button__icon"></i>
+            </a>
+          </div>
+
+          <img src="images/project-img.png"
+            alt="web development or web design project discussion illustration" />
+        </div>
+      </div>
+    </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in Touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+          
+
+            <div class="contact__info">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">ekpealamicheal@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__info">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Lagos, Nigeria</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="https://formsubmit.co/4697bd68e30281112069e9d75569654f" method="POST" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="name" class="contact__label">Name:</label>
+                <input type="text" class="contact__input" name="name" required/>
+              </div>
+
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email:</label>
+                <input type="email" class="contact__input" name="email" required/>
+              </div>
+
+              <div class="contact__content">
+                <label for="project" class="contact__label">Project:</label>
+                <input type="text" class="contact__input" name="project" required/>
+              </div>
+
+              <div class="contact__content">
+                <label for="message" class="contact__label">Message</label>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="0"
+                  rows="7"
+                  class="contact__input"
+                ></textarea>
+              </div>
+            </div>
+
+            <div>
+              <button class="button button--flex submit-btn" type="submit">  Send Message
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Oliveszn</h1>
+            <span class="footer__subtitle">Frontend Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#home" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://twitter.com/oliveszn_" target="_blank" class="footer__social"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/oliveszn_/" target="_blank" class="footer__social"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/Oliveszn?tab=repositories" target="_blank" class="footer__social"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Oliveszn</p>
+      </div>
+    </footer>
+
+    <a href="#" class="scroll__up" id="scroll-up">
+      <i class="uil uil-arrow-up scroll__up--icon"></i>
+    </a>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
